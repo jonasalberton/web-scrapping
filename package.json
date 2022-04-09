@@ -1,0 +1,18 @@
+{
+  "name": "agenda",
+  "version": "1.0.0",
+  "description": "webscrapping to grab due dates and generate a csv file to import in my agenda",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "nodemon": "^2.0.15",
+    "puppeteer": "^13.5.2"
+  }
+}
